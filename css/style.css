@@ -50,7 +50,6 @@ img {
     border-radius: 8px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #000000;
-
 }
 
 /****************FŐOLDAL***********************/
@@ -94,7 +93,6 @@ iframe {
 main {
     height: 3000px;
     color: rgba(2, 152, 136, 255);
-
 }
 
 main DIV {
@@ -111,31 +109,26 @@ main DIV {
 .hamilton {
     float: left;
     margin-right: 25px;
-
 }
 
 .russel {
     float: right;
     margin-left: 25px;
-
 }
 
 .bottas {
     float: left;
     margin-right: 25px;
-
 }
 
 .schumi {
     float: right;
     margin-left: 25px;
-
 }
 
 .rosberg {
     float: left;
     margin-right: 25px;
-
 }
 
 .member a {
@@ -163,7 +156,6 @@ main DIV {
     filter: grayscale(100%);
     transform: scale(1.1);
 }
-
 
 
 /************KVÍZ*********************/
@@ -241,3 +233,10 @@ footer {
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    main DIV {
+      float: none;
+      padding: 10px;
+    }
+  }
