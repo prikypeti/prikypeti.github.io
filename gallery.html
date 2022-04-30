@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Mercedes AMG Forma-1es csapatának összefoglaló képgalériája főként a 2021 és 2020as evből válogatva. Versenyekről, boxutcából és a pódiumról egyaránt találhatsz képeket.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <link href="img/favicon.png" rel="icon" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Roboto:wght@300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Mercedes AMG Forma-1es csapatának összefoglaló képgalériája</title>
+</head>
+
+<body>
+
+  <header>
+    <picture>
+      <img src="img/header.jpg" alt="fejléc" width="100%" height="300px">
+    </picture>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="timeline.html">Idővonal</a></li>
+      <li><a href="pilot.html">Versenyzők</a></li>
+      <li><a href="gallery.html">Galéria</a></li>
+      <li><a href="qviz.html">Kvíz</a></li>
+    </ul>
+  </nav>
+
+  <h1>Kép Galéria</h1>
+  <div class="gallery">
+    <a href="img/pic_1_big.jpg" data-lightbox="mygallery"><img src="img/pic_1_small.jpeg" alt="kep1"></a>
+    <a href="img/pic_2_big.jpg" data-lightbox="mygallery"><img src="img/pic_2_small.jpeg" alt="kep2"></a>
+    <a href="img/pic_3_big.jpg" data-lightbox="mygallery"><img src="img/pic_3_small.jpeg" alt="kep3"></a>
+    <a href="img/pic_4_big.jpg" data-lightbox="mygallery"><img src="img/pic_4_small.jpeg" alt="kep4"></a>
+    <a href="img/pic_5_big.jpg" data-lightbox="mygallery"><img src="img/pic_5_small.jpg" alt="kep5"></a>
+    <a href="img/pic_6_big.jpg" data-lightbox="mygallery"><img src="img/pic_6_small.jpg" alt="kep6"></a>
+    <a href="img/pic_7_big.jpg" data-lightbox="mygallery"><img src="img/pic_7_small.jpg" alt="kep7"></a>
+    <a href="img/pic_8_big.png" data-lightbox="mygallery"><img src="img/pic_8_small.png" alt="kep8"></a>
+    <a href="img/pic_9_big.jpg" data-lightbox="mygallery"><img src="img/pic_9_small.jpeg" alt="kep9"></a>
+    <a href="img/pic_10_big.png" data-lightbox="mygallery"><img src="img/pic_10_small.png" alt="kep10"></a>
+    <a href="img/pic_11_big.png" data-lightbox="mygallery"><img src="img/pic_11_small.png" alt="kep11"></a>
+    <a href="img/pic_12_big.png" data-lightbox="mygallery"><img src="img/pic_12_small.png" alt="kep12"></a>
+    <a href="img/pic_13_big.png" data-lightbox="mygallery"><img src="img/pic_13_small.png" alt="kep13"></a>
+    <a href="img/pic_14_big.jpg" data-lightbox="mygallery"><img src="img/pic_14_small.jpeg" alt="kep14"></a>
+    <a href="img/pic_16_big.jpg" data-lightbox="mygallery"><img src="img/pic_16_small.jpeg" alt="kep16"></a>
+    <a href="img/pic_17_big.png" data-lightbox="mygallery"><img src="img/pic_17_small.png" alt="kep17"></a>
+  </div>
+
+  <footer>
+    <h2>Kövess mineket a közösségi médiában:
+        <a href="https://www.facebook.com/MercedesAMGF1" class="fa fa-facebook-square" target="_blank"></a>
+        <a href="https://twitter.com/mercedesamgf1" class="fa fa-twitter-square" target="_blank"></a>
+        <a href="https://www.instagram.com/mercedesamgf1/" class="fa fa-instagram" target="_blank"></a>
+    </h2>
+    <h3><sup>Prooktatás Vizsgamunka &copy; 2022 - Prikkel Péter</sup></h3>
+</footer>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
+
+  <script>
+    var mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+
+</html>

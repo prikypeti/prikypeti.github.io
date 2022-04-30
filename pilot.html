@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mercedes AMG Forma-1es csapatának mostani és korábbi versenyzőinek bemutatása, rövid eléttörténetük és jellemzésük">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/favicon.png" rel="icon" type="image/x-icon" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mercedes AMG Forma-1es csapatának versenyzőinek bemutatása</title>
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="img/header.jpg" alt="fejléc" width="100%" height="300px">
+        </picture>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Főoldal</a></li>
+            <li><a href="timeline.html">Idővonal</a></li>
+            <li><a href="pilot.html">Versenyzők</a></li>
+            <li><a href="gallery.html">Galéria</a></li>
+            <li><a href="qviz.html">Kvíz</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+
+                $('.hideme').each(function (i) {
+
+                    var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                    if (bottom_of_window > bottom_of_object) {
+
+                        $(this).animate({ 'opacity': '1' }, 500);
+
+                    }
+                });
+            });
+        });
+    </script>
+
+    <h1>Versenyzők:</h1>
+
+    <main>
+        <div class="member">
+            <h2>Lewis Hamilton</h2> <br>
+            Született: 1985. január 7. Stevenage, Egyesült Királyság <br>
+            Korábbi csapatai: McLaren 2007 - 2012 <br>
+            <a href="https://www.facebook.com/LewisHamilton" class="fa fa-facebook-square" target="_blank"></a>
+            <a href="https://twitter.com/lewishamilton" class="fa fa-twitter-square" target="_blank"></a>
+            <a href="https://www.instagram.com/lewishamilton/" class="fa fa-instagram" target="_blank"></a>
+        </div>
+        <div>
+            <figure class="hamilton">
+                <img src="img/hamilton.jpg" alt="Hamilton" width="100%">
+            </figure>
+
+            <div>Hétszeres Formula-1-es világbajnok. A Mercedes pilótája. Miután számos
+                gokart-bajnokságot megnyert, Hamilton tizenkét éves korában szerződést kötött a McLaren-Mercedesszel,
+                hogy később a csapatnál fog
+                autózni. Pályafutása során a brit Formula Renault-ban is versenyzett, ahol 2000-ben európai
+                gokartbajnok lett. 2007-ben, a Formula-1-ben eltöltött első évében remekül teljesített, és a
+                világbajnokság
+                második
+                helyét szerezte meg, mindössze egy ponttal lemaradva Kimi Räikkönen mögött. 2008-ban
+                megszerezte
+                pályafutása első világbajnoki címét, majd 2014-ben, 2015-ben, 2017-ben, 2018-ban, 2019-ben és
+                2020-ban is
+                világbajnok tudott lenni. Ő tartja a legtöbb pole-pozíció rekordját, és a futamgyőzelmek
+                tekintetében
+                is a legeredményesebb a Formula-1-ben. A 2020-as török nagydíjon megszerezte 7. világbajnoki
+                címét, és ezzel
+                beérte Michael Schumacher rekordját.
+            </div>
+        </div>
+
+        <div class="member">
+            <h2>George Russell</h2> <br>
+            Született 1998. február 15. King's Lynn, Egyesült Királyság <br>
+            Korábbi csapatai: Force India 2017 tesztpilóta, Williams 2019 - 2021 <br>
+            <a href="https://www.facebook.com/OfficialGR63" class="fa fa-facebook-square" target="_blank"></a>
+            <a href="https://twitter.com/GeorgeRussell63" class="fa fa-twitter-square" target="_blank"></a>
+            <a href="https://www.instagram.com/georgerussell63" class="fa fa-instagram" target="_blank"></a>
+        </div>
+
+        <div>
+            <figure class="russel">
+                <img src="img/russel.jpg" alt="Russel" width="100%">
+            </figure>
+            <div>2017-es GP3-szezon és a 2018-as Formula-2 szezon bajnoka. George Russell 2019-ben, a jövő nagy
+                ígéreteként érkezett meg a Forma-1-be, és már első évében remek teljesítményt nyújtott a gyengécske
+                Williamsszel. A Mercedes juniorversenyzője, 2020-ban pedig nagy lehetőséget kapott, a Szahíri Nagydíjon
+                ugyanis a koronavírusos Lewis Hamilton helyett ugrott be, és a győzelemért harcolhatott.
+                2021. szeptember 7-én jelentette be a Mercedes, hogy Valtteri Bottas helyére érkezik a csapatba,
+                ahol Lewis Hamilton csapattársa lett.
+            </div>
+        </div>
+
+        <div class="hideme">
+            <h2>Korábbi Versenyzők:</h2>
+        </div>
+        <div class="hideme">
+            <h2>Valtteri Bottas</h2> <br>
+            Született 1989. augusztus 28. Nastola, Finnország <br>
+            Korábbi csapatai: Williams 2013 - 2016 <br>
+            <a href="https://www.facebook.com/ValtteriBottas" class="fa fa-facebook-square" target="_blank"></a>
+            <a href="https://twitter.com/ValtteriBottas" class="fa fa-twitter-square" target="_blank"></a>
+            <a href="https://www.instagram.com/valtteribottas" class="fa fa-instagram" target="_blank"></a>
+        </div>
+
+        <div class="hideme">
+            <figure class="bottas">
+                <img src="img/bottas.jpg" alt="Bottas" width="100%">
+            </figure>
+            <div>A 2011-es szezonban a Williams istálló tesztpilótája lett, majd a 2013-as évtől a csapat
+                pilótájává lépett elő egészen a 2016-os szezon végéig, majd a visszavonult világbajnok Nico
+                Rosberg helyére
+                szerződtette a Mercedes. Egyéni címet nem sikerült szerezni, de három konstruktőri cimhez
+                segítette a
+                csapatot. A 2022-es szezontól az Alfa Romeo pilótája, honfitársát, Kimi Räikkönent váltva.
+            </div>
+        </div>
+
+        <div class="hideme">
+            <h2>Michael Schumacher</h2> <br>
+            Született 1969. január 3. Hürth-Hermülheim <br>
+            Korábbi csapatai: Jordan 1991, Benetton 1991 - 1995, Ferrari 1996 - 2006 <br>
+            <a href="https://www.facebook.com/michaelschumacherofficial" class="fa fa-facebook-square"
+                target="_blank"></a>
+            <a href="https://twitter.com/schumacher" class="fa fa-twitter-square" target="_blank"></a>
+            <a href="https://www.instagram.com/michaelschumacher/" class="fa fa-instagram" target="_blank"></a>
+        </div>
+
+        <div class="hideme">
+            <figure class="schumi">
+                <img src="img/schumi.jpg" alt="Schumi" width="100%">
+            </figure>
+            <div>Formula-1 hétszeres világbajnoka és a sportág egyik legeredményesebb pilótája.
+                Miután a Benetton csapattal megnyerte az 1994-es és az 1995-ös világbajnokságot, 1996-ban a
+                Ferrarihoz
+                szerződött, ahol 2000 és 2004 között sorozatban öt világbajnoki címet szerzett.
+                A sportágban egyedülálló módon, a 2002-es évad minden versenyén dobogóra állhatott.
+            </div>
+        </div>
+
+        <div class="hideme">
+            <h2>Nico Rosberg</h2> <br>
+            Született 1985. június 27. Wiesbaden, NSZK <br>
+            Korábbi csapatai: Williams 2006 - 2009 <br>
+            <a href="https://www.facebook.com/nicorosberg" class="fa fa-facebook-square" target="_blank"></a>
+            <a href="https://twitter.com/NicoRosberg" class="fa fa-twitter-square" target="_blank"></a>
+            <a href="https://www.instagram.com/nicorosberg/" class="fa fa-instagram" target="_blank"></a>
+        </div>
+
+        <div class="hideme">
+            <figure class="rosberg">
+                <img src="img/rosberg.jpg" alt="Rosberg" width="100%">
+            </figure>
+            <div>Nico az 1982-es Formula-1-es világbajnok, Keke Rosberg fia. Édesanyja német és ő maga is
+                német színekben versenyez. Monacóban él és ott is nőtt fel. A 2014-es
+                Formula-1-es világbajnokságon csapattársa, Lewis Hamilton mögött a 2. helyen végzett, amely
+                eredményét
+                2015-ben is meg tudta ismételni. 2016-ban Lewis Hamilton előtt végezve a Formula-1 világbajnoka
+                lett,
+                majd öt nap múlva, az FIA bécsi díjátadó gáláján bejelentette visszavonulását.
+            </div>
+        </div>
+
+        <footer class="hideme">
+            <h2>Kövess mineket a közösségi médiában:
+                <a href="https://www.facebook.com/MercedesAMGF1" class="fa fa-facebook-square" target="_blank"></a>
+                <a href="https://twitter.com/mercedesamgf1" class="fa fa-twitter-square" target="_blank"></a>
+                <a href="https://www.instagram.com/mercedesamgf1/" class="fa fa-instagram" target="_blank"></a>
+            </h2>
+            <h3><sup>Prooktatás Vizsgamunka &copy; 2022 - Prikkel Péter</sup></h3>
+        </footer>
+        <div class="hideme"></div>
+    </main>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up"></i></button>
+
+    <script>
+
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
