@@ -91,13 +91,15 @@ iframe {
 /**********************VERSENYZŐK************************/
 
 main {
+    display: flex;
+    flex-direction: column;
     height: 3000px;
     color: rgba(2, 152, 136, 255);
 }
 
 main DIV {
-    padding: 50px;
-    margin: 50px;
+    padding: 25px;
+    margin: 25px;
     background-color: rgba(44, 43, 41, 255);
     border-radius: 10px;
 }
@@ -223,12 +225,10 @@ footer {
 @media screen and (max-width: 600px) {
     nav a {
         float: none;
-        text-align: left;
     }
 }
 
 @media screen and (max-width: 960px) {
-
     section,
     div.box {
         width: 100%;
@@ -240,6 +240,7 @@ footer {
       float: none;
       padding: 5px;
       text-align: center;
+      width: 80%;
     }
   }
 
@@ -248,6 +249,8 @@ footer {
       float: none;
       padding: 5px;
       text-align: center;
+      opacity: 1;
+      width: 80%;
     }
   }
 
@@ -256,5 +259,6 @@ footer {
       float: none;
       margin: 0px;
       text-align: left;
+      width: 80%;
     }
   }
