@@ -220,11 +220,12 @@ footer {
     background-color: red;
 }
 
-/*************MÉDIA*****************/
+/*************MEDIA QUERY*****************/
 
 @media screen and (max-width: 600px) {
     nav a {
         float: none;
+        padding: 0;
     }
 }
 
@@ -240,7 +241,7 @@ footer {
       float: none;
       padding: 5px;
       text-align: center;
-      width: 80%;
+      width: 90%;
     }
   }
 
@@ -250,7 +251,7 @@ footer {
       padding: 5px;
       text-align: center;
       opacity: 1;
-      width: 80%;
+      width: 90%;
     }
   }
 
@@ -259,6 +260,6 @@ footer {
       float: none;
       margin: 0px;
       text-align: left;
-      width: 80%;
+      width: 90%;
     }
   }
